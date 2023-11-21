@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    padding: 20px;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+
+#img {
+    margin-top: 10%;
+    border-radius: 5px 4px 10px black;
+}
+
+p {
+    padding: 50px;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
