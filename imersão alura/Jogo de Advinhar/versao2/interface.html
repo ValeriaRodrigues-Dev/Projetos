@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Linka a pasta de estilo ao html -->
+   <link rel="stylesheet" href="estilo/style.css">
+   <title>joguinho d adivinhar</title>
+</head>
+
+<!-- corpo da pagina -->
+<body>
+   <header>
+   <H1>JOGO DE ADIVINHAR</H1>
+   <input type="text" id="nomuser" placeholder="Digite seu nome"> 
+   <button onclick="boas_vindas()" id="botaocom">CONFIRMAR</button>
+   <P id="msgboasvindas"></P>
+   </header>
+   
+   <main>
+   <h2>QUE COMECEM OS JOGOS HAHA... </h2>
+   <h3>DIGITE UM NÚMERO ENTRE 1 E 100: </h3>
+
+   <input type="number" id="numuser">
+   <button onclick="tentandoadivinhar()" >CHUTAR</button>
+   <p id="msgsaida"></p>   
+   <p id="numtenta"></p>
+   <p id="numdigitados"></p>
+   </main>
+   
+   <footer>
+      <p>Obrigado por participar do meu jogo!</p>
+      <p>Volte outras vezes!</p>
+   </footer>
+
+   <!-- Linka a pagina do js ao html -->
+   <script src="js/cod.js"></script>
+</body>
+
+</html>

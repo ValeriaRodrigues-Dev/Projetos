@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    min-width: 600px;
+    overflow-x: hidden;   
+    background-image: linear-gradient(to bottom, #0008f5ce,#0056f5e2, #4700F5);
+}
+
+header{
+    padding: 35px;
+    margin: 50px auto;
+    min-width: 560px;
+    width: 45%;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.506);
+}
+header:hover{
+  background-color: rgba(255, 255, 255, 0.348);
+}
+
+
+input{
+    min-width: auto;
+    font-size: 25px;
+    background-color: azure;
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 4px 2px 5px rgba(0, 0, 0, 0.607);
+}
+#msgboasvindas{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+    padding: 15px;
+ 
+}
+button{
+    width: 105px;
+    height: 45px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 4px 2px 5px rgba(0, 0, 0, 0.607);
+}
+main{
+    
+    min-width: 590px;
+    max-width: 570px;
+    height: 550px;
+    text-align: center;
+    padding: 50px;
+    max-height: 750px;
+    margin: 50px auto;
+    border-radius: 40px;
+}
+
+h2,h3{
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+#numuser{
+    margin: 20px;
+    margin-top: -10px;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.736);
+}
+
+#msgsaida, #numtenta, #numdigitados {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+    padding: 15px;
+}
+
+footer{
+    padding: 15px;
+    width: 100%vh;
+    height: 80px;
+    background-color:#4500f5d5;
+    box-shadow: 5px 5px 4px 4px rgba(0, 0, 0, 0.458);
+}
+
+footer  > p{
+    text-align: center;
+    font-size: 25px;
+}
