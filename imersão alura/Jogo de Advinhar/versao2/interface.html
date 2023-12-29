@@ -13,9 +13,9 @@
 <body>
    <header>
    <H1>JOGO DE ADIVINHAR</H1>
-   <input type="text" id="nomuser" placeholder="Digite seu nome"> 
+   <input type="text" id="nomuser" placeholder="Digite seu nome" > 
    <button onclick="boas_vindas()" id="botaocom">CONFIRMAR</button>
-   <P id="msgboasvindas"></P>
+   <P id="msgaouser"></P>
    </header>
    
    <main>
@@ -23,7 +23,7 @@
    <h3>DIGITE UM NÚMERO ENTRE 1 E 100: </h3>
 
    <input type="number" id="numuser">
-   <button onclick="tentandoadivinhar()" >CHUTAR</button>
+   <button onclick="tentandoadivinhar()" id="botaochute">CHUTAR</button>
    <p id="msgsaida"></p>   
    <p id="numtenta"></p>
    <p id="numdigitados"></p>
@@ -35,7 +35,7 @@
    </footer>
 
    <!-- Linka a pagina do js ao html -->
-   <script src="js/cod.js"></script>
+   <script src="js/script.js"></script>
 </body>
 
 </html>

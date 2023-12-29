@@ -24,6 +24,7 @@ function boas_vindas(){
   /*array para receber os numeros ja digitados pelo usuario, tambem fora da funcao para que os numeros sejam 
      inseridos simultaneamente, sem apagar o anteriores */
     var numchutados= [];
+    const botaochutar = document.getElementById('botaochute');
 
 function tentandoadivinhar(){
     var numerouser = document.getElementById('numuser').value;
@@ -59,14 +60,13 @@ function tentandoadivinhar(){
             else if(numaleatorio < numerouser){
                 retornouser.innerHTML= "O NÚMERO A SER ACERTADO É MENOR QUE O CHUTADO!";
             }
-
             if(contartentativas == 7){
                 return retornouser.innerHTML= "TENTATIVAS ESGOTADAS! PERDEU! O NÚMERO ERA: " + numaleatorio;
             }
+            const botaochutar = document.getElementById('botaochute');
+            console.log(botaochutar);
+            botaochutar.Disabled = true;
            break;
-            
-
-        
             
 
         }
